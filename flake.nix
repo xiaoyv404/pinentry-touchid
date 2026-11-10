@@ -26,6 +26,8 @@
 
             # tests talk to the login Keychain and cannot run inside the build sandbox
             doCheck = false;
+
+            meta.mainProgram = "pinentry-touchid";
           };
           default = pinentry-touchid;
         }
