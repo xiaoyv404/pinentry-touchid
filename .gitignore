@@ -17,3 +17,7 @@ dist/
 
 # local binary
 pinentry
+
+# nix build output
+result
+result-*
